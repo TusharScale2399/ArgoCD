@@ -9,6 +9,7 @@ spec:
   source:
     repoURL: https://github.com/TusharScale2399/ArgoCD.git
     targetRevision: HEAD
+    path: ArgoCD
   destination: 
     server: https://kubernetes.default.svc
     namespace: myapp
